@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="../static/styles/actualizarPlato.css">
+    <title>Actualizar Plato</title>
+</head>
+
+<body>
+    <div id="app" class="contenedorFormReg">
+        <h1>Actualizar Plato</h1>
+        <form >
+            <div class="row">
+                <div class="col">
+                    <label for="id" class="form-label"></label>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">ID</span>
+                        <input type="number" class="form-control" name="id" id="id" v-model="id" disabled>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="nombre" class="form-label">Nombre del Plato</label>
+                    <input type="text" class="form-control" name="nombre" id="nombre" v-model="nombre">
+                </div>
+                <div class="col">
+                    <label for="precio" class="form-label">Precio</label>
+                    <input type="number" class="form-control" name="precio" id="precio" v-model="precio">
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="foto" class="form-label">Fotografia</label>
+                <input type="text" class="form-control" id="foto" name="foto" v-model="foto">
+            </div>
+            <div class="mb-3">
+                <label for="descripcion" class="form-label">Descripcion</label>
+                <input type="text" class="form-control" id="descripcion" name="descripcion" v-model="descripcion">
+            </div>
+        <!-- lista de categorias -->
+        <div class="row">
+            <span>Categoria</span>
+            <div class="form-check col" v-for="elemento in listaCategorias" :key="elemento.id">
+                <input class="form-check-input" type="radio" name="elemento" :id="elemento.id" :value="elemento.nombre" v-model="categoria">
+                <label class="form-check-label" :for="elemento.id">{{elemento.nombre}}         
+                </label>
+            </div>
+        </div>
+
+            <button type="button" class="btn btn-success" v-on:click="modificar()">Actualizar</button>
+            <button type="button" class="btn btn-primary" v-on:click="volver()">Volver</button>
+        </form>
+    </div>
+
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- enlace a vue -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="../static/js/scriptGestor/actualizarPlato.js"></script>
+</body>
+
+</html>

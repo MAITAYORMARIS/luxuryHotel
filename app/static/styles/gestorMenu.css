@@ -1,0 +1,11 @@
+.contenedor_imagen{
+    width: 100px;
+    height: 100px;
+    display: flex;
+}
+.contenedor_imagen>img{
+    max-width: 100%;
+    max-height: 100;
+    object-fit: contain;
+
+}
