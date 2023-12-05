@@ -1,0 +1,192 @@
+{
+    "data": [
+        {
+            "precio": 12,
+            "nombre": "Dia de Spa",
+            "info": "Imagina un espacio donde puedes escapar de la rutina agitada, un santuario donde las horas se detienen para que puedas disfrutar de las pequeñas cosas que hacen maravillas en tu bienestar. Bienvenido a nuestra experiencia Un Día de Spa, diseñada especialmente para ti.",
+            "duracion": "5 horas",
+            "image": "https://firebasestorage.googleapis.com/v0/b/mi-proyecto-de-recetas.appspot.com/o/FOTOS%20PROYECTO%20HOTEL%2Fpexels-rdne-stock-project-6724374.jpg?alt=media&token=680f6ad5-14d9-454b-9088-01cbed9e64aa&_gl=1*mn10ye*_ga*MTcyMTIyNTczNy4xNjk2MTk1ODIy*_ga_CW55HF8NVT*MTY5NjE5ODQwOS4yLjEuMTY5NjE5ODQ1OS4xMC4wLjA.",
+            "alt": "Foto de RDNE Stock project: https://www.pexels.com/es-es/foto/sano-naturaleza-moda-amor-6724374/",
+            "servicios": [
+                {
+                    "nombre": "Piscina Climatizada",
+                    "detalle": "Sumérgete en aguas tibias, encontraras una sensación de paz y relajación inigualable."
+                },
+                {
+                    "nombre": "Hidromasaje",
+                    "detalle": " Déjate llevar por las burbujas y el calor mientras el estrés se disuelve en el agua. El hidromasaje es un oasis de tranquilidad que mimará tu cuerpo y mente"
+                },
+                {
+                    "nombre": "Gimnasio",
+                    "detalle": "Si buscas un impulso de energía, nuestro gimnasio bien equipado te espera. Mantén tu rutina de ejercicios o experimenta una sesión de entrenamiento en un ambiente relajante."
+                },
+                {
+                    "nombre": "Sauna Seco",
+                    "detalle": "Elimina toxinas y revitaliza tu piel en nuestra sauna seca. Disfruta de los beneficios para la salud y la belleza de este rincón de calor y purificación."
+                },
+                {
+                    "nombre": "Acceso a Duchas y Lockers",
+                    "detalle": "Después de tu experiencia en el spa, podrás refrescarte y arreglarte en nuestras modernas instalaciones de duchas y lockers."
+                }
+            ],
+            "descripcion": "En la vida moderna, a menudo nos encontramos atrapados en una maraña de responsabilidades, corriendo sin cesar contra el reloj, y en ocasiones, olvidándonos de cuidar de nosotros mismos. Este ritmo de vida pueden afectar negativamente nuestra salud y bienestar. Encontrar equilibrio es más sencillo de lo que parece. Reserva un tiempo para ti y visita nuestro spa para revitalizarte y cuidar de tu cuerpo y mente.",
+            "condiciones": "Realiza tu reserva y obten un Voucher para disfrutar de esta experiencia en cualquier día de la semana, de 10:00 a 20:00 horas, durante un período de 4 meses"
+        },
+        {
+            "precio": 40,
+            "nombre": "Relax + Facial Amigos",
+            "info": "Adéntrate en un mundo de lujo y bienestar con nuestro exclusivo servicio Relax + Facial Amigos. Luxury Spa, te ofrece una experiencia que combina lo mejor del relax y la renovación, perfecta para compartir con amigos.",
+            "duracion": "3 horas",
+            "image": "https://firebasestorage.googleapis.com/v0/b/mi-proyecto-de-recetas.appspot.com/o/FOTOS%20PROYECTO%20HOTEL%2Fpexels-sergey-torbik-7365396.jpg?alt=media&token=400abf93-0914-489b-9f34-609fc902d4df&_gl=1*14x6p3*_ga*MTcyMTIyNTczNy4xNjk2MTk1ODIy*_ga_CW55HF8NVT*MTY5NjE5ODQwOS4yLjEuMTY5NjE5OTY3OS4zMS4wLjA.",
+            "alt": "Foto de Sergey Torbik: https://www.pexels.com/es-es/foto/gente-relajacion-amigos-mujer-7365396/",
+            "servicios": [
+                {
+                    "nombre": "Piscina Climatizada",
+                    "detalle": "Sumérgete en aguas tibias donde las aguas relajantes y revitalizantes te envolverán durante 50 minutos, encontraras una sensación de paz y relajación inigualable, "
+                },
+                {
+                    "nombre": "Hidromasaje Privado",
+                    "detalle": "Disfruta de 20 minutos, alivia contracturas y el estrés"
+                },
+                {
+                    "nombre": "Relajación Aromática y Facial",
+                    "detalle": "Conoce nuestro gabinete de relajacion y disfruta por 30 minutos junto a tu acompañante de tratamientos personalizados, desde masajes a elección hasta una máscara facial super hidratante."
+                },
+                {
+                    "nombre": "Masaje Relajante",
+                    "detalle": "Hemos preparado dos masajes de 30 minutos, uno para cada persona, para que te sientas mimado en cada rincón de tu ser."
+                },
+                {
+                    "nombre": "Sala de Relax",
+                    "detalle": "Para completar la experiencia, les esperamos en nuestra sala de relax, donde podrás disfrutar de una merienda saludable durante 40 minutos y continuar el día sintiéndose renovados y rejuvenecidos."
+                }
+            ],
+            "descripcion": "Imagina comenzar tu día siendo recibido con calidez y elegancia, recibiendo batas y lockers para tu comodidad. Este paquete exclusivo también incluye acceso a nuestras instalaciones de primer nivel, como nuestra piscina climatizada para nadar a tu ritmo y un hidromasaje privado de 20 minutos para liberar el estrés acumulado.",
+            "condiciones": "Renueva, relaja y comparte momentos especiales con amigos en nuestro exclusivo Relax + Facial Amigos. Tu bienestar es nuestra prioridad. Reserva ahora y disfruta de esta experiencia única en compañía de tus seres queridos. en cualquier día de la semana, de 10:00 a 20:00 horas. Voucher valido por 2 meses"
+        },
+        {
+            "precio": 10,
+            "nombre": "Masaje Relajante",
+            "info": "Deja que nuestros terapeutas te lleven a un viaje de relajación y revitalización total. Experimenta la serenidad y recupera la paz interior con nuestro masaje de relajación de calidad superior. Tu cuerpo y mente lo agradecerán.",
+            "duracion": "1h 30minutos",
+            "image": "https://firebasestorage.googleapis.com/v0/b/mi-proyecto-de-recetas.appspot.com/o/FOTOS%20PROYECTO%20HOTEL%2Fpexels-engin-akyurt-5378218.jpg?alt=media&token=e4fe83a8-dac2-4919-9e13-3ab6b6d82f66&_gl=1*16c0507*_ga*MTcyMTIyNTczNy4xNjk2MTk1ODIy*_ga_CW55HF8NVT*MTY5NjE5ODQwOS4yLjEuMTY5NjE5OTQ4Ny42MC4wLjA.",
+            "alt": "Foto de Engin Akyurt: https://www.pexels.com/es-es/foto/persona-relajacion-flores-descanso-5378218/",
+            "servicios": [
+                {
+                    "nombre": "Masaje con Piedras",
+                    "detalle": "Experimenta la calidez de las piedras de Basalto que se aplican estratégicamente para relajar los músculos y estimular la circulación"
+                },
+                {
+                    "nombre": "Masaje Ayurveda",
+                    "detalle": "Basado en la medicina Ayurveda de la India, este masaje utiliza aceites esenciales para equilibrar cuerpo y mente, mejorando el sistema inmunitario y circulatorio."
+                },
+                {
+                    "nombre": "Eliminación de Toxinas",
+                    "detalle": "Trabajamos en profundidad el sistema linfático y circulatorio para liberar toxinas, mejorando la salud general."
+                },
+                {
+                    "nombre": "Relajación Profunda del Sistema Nervioso",
+                    "detalle": "Experimenta una sensación de relajación generalizada que calma y rejuvenece tu sistema nervioso."
+                },
+                {
+                    "nombre": "Equilibrio Integral",
+                    "detalle": "Nuestros terapeutas expertos te guiarán hacia un estado de armonía y bienestar completo, liberándote del estrés y las tensiones acumuladas."
+                }
+            ],
+            "descripcion": "Descubre la verdadera esencia del bienestar con nuestro servicio de masaje de relajación. Sumérgete en un mundo de tranquilidad y armonía, donde la relajación profunda es la clave. Nuestro masaje combina técnicas tradicionales y enfoques terapéuticos para brindarte un equilibrio perfecto entre cuerpo y mente",
+            "condiciones": "Realiza tu reserva y obten un Voucher para disfrutar de esta experiencia en cualquier día de la semana, de 10:00 a 20:00 horas, valido por 3 meses"
+        },
+        {
+            "precio":6,
+            "nombre": "Spa Facial",
+            "info": "Permítete el lujo de una experiencia rejuvenecedora que te hará sentir y lucir radiante. Tu piel y tu espíritu se renovarán con cada visita.",
+            "duracion": "40 minutos",
+            "image": "https://firebasestorage.googleapis.com/v0/b/mi-proyecto-de-recetas.appspot.com/o/FOTOS%20PROYECTO%20HOTEL%2Fpexels-john-tekeridis-3212179.jpg?alt=media&token=0c6b88d4-237a-421e-b256-61481f0d2b1a&_gl=1*11ff3n3*_ga*MTcyMTIyNTczNy4xNjk2MTk1ODIy*_ga_CW55HF8NVT*MTY5NjE5ODQwOS4yLjEuMTY5NjIwMDk2NC40Ny4wLjA.",
+            "alt": "foto de john-tekeridis",
+            "servicios": [
+                {
+                    "nombre": "Masaje Facial Rejuvenecedor",
+                    "detalle": "Estimula la circulación y oxigena tu piel, dejando un aspecto fresco y juvenil."
+                },
+                {
+                    "nombre": "Estimulación de Colágeno",
+                    "detalle": "Promovemos la producción natural de colágeno, previniendo la aparición prematura de arrugas."
+                },
+                {
+                    "nombre": "Alivio del Estrés",
+                    "detalle": "Nuestro tratamiento relajante reduce los efectos visibles del estrés en tu rostro, restaurando su vitalidad."
+                },
+                {
+                    "nombre": "Bienestar Emocional",
+                    "detalle": "Experimenta un cambio positivo en tu estado de ánimo, sintiéndote más confiado y relajado."
+                },
+                {
+                    "nombre": "Tratamientos Cosméticos Personalizados",
+                    "detalle": "Adaptamos nuestros servicios a tus necesidades individuales, brindándote un enfoque personalizado para lograr resultados óptimos."
+                }
+            ],
+            "descripcion": "Adéntrate en un mundo de rejuvenecimiento y bienestar con nuestro servicio de Spa Facial. Nuestros terapeutas expertos te brindarán un tratamiento excepcional que combina técnicas manuales y productos de alta calidad. Experimenta la belleza interior y exterior mientras cuidamos tu rostro y alma.",
+            "condiciones": "Realiza tu reserva y obten un Voucher para disfrutar de esta experiencia en cualquier día de la semana, de 10:00 a 20:00 horas, valido por 3 meses. Asistir sin maquillaje"
+        },
+        {
+            "precio": 10,
+            "nombre": "Masaje Descontracturante",
+            "info": "Descubre el alivio y la restauración que proporciona nuestro masaje descontracturante. Permítete un momento de cuidado y bienestar en manos de nuestros terapeutas expertos. Tu cuerpo te lo agradecerá.",
+            "duracion": "60 minutos",
+            "image": "https://firebasestorage.googleapis.com/v0/b/mi-proyecto-de-recetas.appspot.com/o/FOTOS%20PROYECTO%20HOTEL%2Fpexels-olia-danilevich-9335988.jpg?alt=media&token=18a796dc-0fb2-4e42-91d1-87604c0399ab&_gl=1*xi34t1*_ga*MTcyMTIyNTczNy4xNjk2MTk1ODIy*_ga_CW55HF8NVT*MTY5NjE5ODQwOS4yLjEuMTY5NjIwMDExOS40Ni4wLjA.",
+            "alt": "Foto de olia danilevich: https://www.pexels.com/es-es/foto/persona-relajacion-centro-termal-bienestar-9335988/",
+            "servicios": [
+                {
+                    "nombre": "Alivio de Contracturas",
+                    "detalle": "Elimina tensiones y nudos musculares para una mayor flexibilidad"
+                },
+                {
+                    "nombre": "Mejora de Circulación",
+                    "detalle": "Estimula el flujo sanguíneo y el sistema linfático, promoviendo la salud vascular"
+                },
+                {
+                    "nombre": "Eliminación de Toxinas",
+                    "detalle": "Ayuda a tu cuerpo a deshacerse de toxinas acumuladas, revitalizando tu energía"
+                },
+                {
+                    "nombre": "Calma del Dolor Muscular",
+                    "detalle": "Reduce la incomodidad y mantiene la tonicidad muscular"
+                },
+                {
+                    "nombre": "Bienestar General",
+                    "detalle": "Experimenta una sensación de relajacion profunda y revitalización"
+                }
+            ],
+            "descripcion": "Sumérgete en la profunda relajación y bienestar con nuestro servicio de masaje descontracturante. Este enfoque terapéutico busca aliviar las tensiones musculares y mejorar tu bienestar en general. A través de técnicas manuales expertas, liberamos las contracturas, normalizamos la musculatura y desencadenamos la liberación de endorfinas para una sensación de calma y alivio",
+            "condiciones": "Realiza tu reserva y obten un Voucher para disfrutar de esta experiencia disponible de Lunes a Sábado de 9hs a 18hs, valido por 2 meses. Fisioterapeuta masculino"
+        },
+        {
+            "precio": 8,
+            "nombre": "Hidroterapia",
+            "info": "Permítete relajarte y rejuvenecer en nuestras aguas terapéuticas puras mientras mejoras tu bienestar físico y emocional. Tu cuerpo y mente te agradecerán cada momento en este refugio de serenidad.",
+            "duracion": "2 horas",
+            "image": "https://firebasestorage.googleapis.com/v0/b/mi-proyecto-de-recetas.appspot.com/o/FOTOS%20PROYECTO%20HOTEL%2FBeneficios-del-Jacuzzi1.jpg?alt=media&token=539fd4bc-1547-4bed-ac92-07d177f47605&_gl=1*g09dt8*_ga*MTcyMTIyNTczNy4xNjk2MTk1ODIy*_ga_CW55HF8NVT*MTY5NjE5ODQwOS4yLjEuMTY5NjIwMDcwOS41Mi4wLjA.",
+            "alt": "foto jacuzzi",
+            "servicios": [
+                {
+                    "nombre": "Duchas Terapéuticas",
+                    "detalle": "Experimenta la estimulación y relajación con duchas especiales que mejoran la circulación y revitalizan la piel."
+                },
+                {
+                    "nombre": "Circuitos Terapéuticos de Agua",
+                    "detalle": "Inicia el circuito en nuestra sala de sauna colectiva o individual, despues explora nuestra piscina climatizada y finalmente ve a una sesion de Flotación siente la ingravidez mientras flotas en agua tibia y salina, liberando el estrés y restaurando la calma interior."
+                },
+                {
+                    "nombre": "Hidromasaje Personalizado",
+                    "detalle": "Sumérgete en bañeras de hidromasaje individuales diseñadas chorros de agua diseñados para aliviar tensiones musculares, mejorar la circulación y promover la relajación profunda."
+                },
+                {
+                    "nombre": "Baños en Aguas Minerales Puras",
+                    "detalle": "Disfruta de aguas ricas en minerales como hierro, calcio y magnesio, libres de cloro y productos químicos, que ofrecen beneficios invaluables para la salud."
+                }
+            ],
+            "descripcion": "Nuestro servicio de Hidroterapia, donde la pureza y tranquilidad del agua se combinan para proporcionarte una experiencia de bienestar incomparable. Nuestro enfoque se basa en la relajación profunda y la restauración de la mente y el cuerpo. Aquí, encontrarás un santuario de serenidad.",
+            "condiciones": "Realiza tu reserva y obten un Voucher para disfrutar de esta experiencia en cualquier día de la semana, de 10:00 a 20:00 horas. Se exige a los huéspedes guardar silencio y esta terminantemente prohibido el uso de dispositivos electronicos"
+        }
+    ]
+}

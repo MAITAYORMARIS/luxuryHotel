@@ -1,0 +1,304 @@
+.introSpa{
+    width: 90%;
+    height: auto;
+    text-align: justify;
+    line-height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color:rgb(62, 61, 61);
+}
+.introSpaPic{
+    width: 40%;
+    height: 80%;
+    border-radius:11px 156px 10px 10px;
+}
+.introSpaPic>img{
+    max-width: 100%;
+    max-height: 100%;
+    height: 100%;
+    width: 100%;
+    border-radius: 11px 156px 10px 10px; 
+}
+.introSpaInfo{
+    width: 60%;
+    height: 100%;
+    padding: 0 2% 0 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 35px;
+    
+}
+.productosSpa{
+    margin-top: 50px;
+    margin-bottom: 50px ;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.productosSpaInfo{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap;
+    column-gap: 2%; */
+    row-gap: 30px;
+    text-align: center;
+    margin-top: 35px;
+}
+.productosItem{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    row-gap: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 25px;
+}
+.detalle{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    height: auto;
+    /* column-gap: 2%; */
+}
+i{
+    font-size: 25px;
+}
+
+.detalleDerecha{
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    row-gap: 25px;
+}
+.detalleDerecha>h3{
+    color:rgb(62, 61, 61);
+}
+.fondo{
+    /* background-color: rgba(183, 179, 179, 0.242); */
+    background-color: rgba(0, 0, 0, 0.092);
+    /* color: #fff; */
+}
+.productosPortada{
+    width: 40%;
+    height: 300px;
+}
+.productosPortada>img{
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height:100%;
+    border-radius:10px 10px 10px 10px;
+}
+.productoInfo{
+    width: 60%;
+    height: auto;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+/* .productoTitulo{
+    text-transform: uppercase;
+    position: relative;
+    bottom: 12%;
+} */
+.fa-solid{
+    color: rgb(230, 180, 105);
+}
+footer{
+    color: rgb(230, 180, 105)
+}
+.enlacesServicios{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  column-gap: 20px;
+}
+.miBoton {
+    padding: 12px 45px;
+    background-color: rgb(230, 180, 105);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .miBoton:hover {
+    background-color: #3bc36f;
+  }
+  
+  .miBoton:active {
+    background-color: #3bc36f;
+  }
+  .contenedorAlert{
+    min-width: 70vw;
+  }
+  .terapias{
+   margin-top: 30px;
+   margin-bottom: 30px;
+   text-align: justify;
+  }
+
+  /* ESTILOS DEL FORMULARIO DE RESERVA SPA */
+  #reservaServicio{
+    display:none;
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+#formularioSpa{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.092); ;
+    border-radius: 2rem; 
+}
+.entrada{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+input[type=text],
+textarea,
+input[type=email],input[type=number],input[type=date],select {
+    width: 70%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-right: 0px;
+    margin-left: 0px;
+    resize: vertical;
+}
+
+.seleccion{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+label{
+    color: white;
+    padding-right: 1rem;
+}
+
+#enviar:disabled, #enviar:disabled:hover{
+    background: #9ee6ad77;
+    cursor: pointer;
+}
+
+
+#resetBtn{
+    background:#f45060 ;
+}
+
+#resetBtn:hover{
+    background: #dc3545;
+}
+
+@media screen and (max-width:479px) {
+    .introSpa{
+        flex-direction: column;
+    }
+   .introSpaPic{
+ display: none;
+   }
+   .introSpaInfo{
+    width: 100%;
+    height: auto;
+}
+.productosSpa h2{
+    text-align: center;
+}
+.productosItem{
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.productosPortada{
+    width: 100%;
+    height: 200px;
+}
+.productoInfo{
+    width: 100%;
+    height: auto;
+    row-gap: 15px;
+    margin-top: 25px;
+}
+.detalle{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.detalleDerecha{
+    width: 100%;
+    justify-content: center;
+    
+}
+.productosPortada>img{
+    margin-top: 20px;
+}
+}
+  
+@media screen and (min-width:480px) and (max-width:767px) {
+    .introSpa{
+        flex-direction: column;
+    }
+   .introSpaPic{
+ display: none;
+   }
+   .introSpaInfo{
+    width: 100%;
+    height: auto;
+}
+.detalle{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.detalleDerecha{
+    width: 100%;
+    justify-content: center;
+    
+}
+}
+@media screen and (min-width:768px) and (max-width:1023px) {}

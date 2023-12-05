@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/suites.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Playpen+Sans:wght@500&family=Rubik&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0c7a20dce2.js" crossorigin="anonymous"></script>
+    <title>Suites</title>
+</head>
+
+<body>
+    <header>
+        <div class="hero">
+            <img src="https://firebasestorage.googleapis.com/v0/b/mi-proyecto-de-recetas.appspot.com/o/FOTOS%20PROYECTO%20HOTEL%2Fpexels-max-rahubovskiy-6782574.jpg?alt=media&token=0d1ae944-ced6-42ea-8776-085831b709f7&_gl=1*13ejo7l*_ga*MTcyMTIyNTczNy4xNjk2MTk1ODIy*_ga_CW55HF8NVT*MTY5NjE5NTgyNC4xLjEuMTY5NjE5NjI4MC4zMS4wLjA."
+                alt="suites">
+        </div>
+        <div class="headerLogo"><img src="./images/logo_hotel.png" alt="logo luxury hotel"></div>
+        <nav>
+            <li><a class="link" href="#" id="home">Home</a></li>
+            <li><a class="link" href="#" id="suites">Suites</a></li>
+            <li> <a class="link" href="#" id="restaurante">Restaurante</a></li>
+            <li> <a class="link" href="#" id="spa">Spa</a></li>
+            <li><a class="link" href="#" id="nosotros">Nosotros</a></li>
+        </nav>
+    </header>
+
+    <section class="section" id="presentacion">
+
+        <div id="general">
+            <p>
+                Nuestro hotel cuenta con 40 suites de diseño exclusivo y sofisticado, con los amenities
+                necesarios para que disfrute de una estadía placentera.
+            </p><br>
+            <p>
+                Las instalaciones cuentan con espacios de recreación al aire
+                libre y también cubiertos, y espacios exclusivos para fumadores.
+            </p><br>
+            Todo el personal está capacitado para satisfacer sus necesidades y que su visita sea una experiencia que no
+            pueda olvidar.
+            </p>
+        </div>
+
+
+        <h2 id="titulo1">Amenities</h2>
+        <div class="row">
+            <div class="column">
+                <ul>
+                    <li>Servicio a la habitación</li><br>
+                    <li>Desayuno continental</li><br>
+                    <li>Frigobar</li>
+                </ul>
+            </div>
+            <div class="column">
+                <ul>
+                    <li>Wifi</li><br>
+                    <li>Servicio de TV Satelital</li><br>
+                    <li>Area de trabajo</li><br>
+                </ul>
+            </div>
+            <div class="column">
+                <ul>
+                    <li>Calefaccion centralizada</li><br>
+                    <li>Ropa de cama para uso personal</li><br>
+                    <li>Caja de seguridad</li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="section" id="habitaciones">
+
+        <div class="container">
+
+            <div class="hab">
+                <img src="images/hera1.jpg" class="imagen1" alt="Imagen1">
+                <br><br>
+                <h2>Suite Hera</h2>
+                <br>
+                <p>Las Suite Hera ofrecen todas las comodidades necesarias
+                    para que disfrutes tu estadia en un ambiente cálido y sofisticado. Estas habitaciones de 65 m2
+                    cuentan
+                    con una cama de 200x200 cm.,
+                    una zona de estar con sofa, conexión WiFi, TV satelital, dos baños, bañera de hidromasaje, aire
+                    acondicionado, frigobar, y vistas al parque del hotel.</p>
+                <br><br>
+
+                <div class="inner-container">
+
+                    <div class="icon-container">
+                        <i class="fa-solid fa-bell-concierge"></i>
+                        <i class="fa-solid fa-mug-saucer"></i>
+                        <i class="fa-solid fa-wifi"></i>
+                        <i class="fa-solid fa-tv"></i>
+                        <i class="fa-solid fa-snowflake"></i>
+                        <i class="fa-solid fa-bath"></i>
+                    </div>
+
+                    <h3 id="precio">Precio por noche U$S 450</h3>
+
+                    <button id="abrirCarrusel">Ver Fotos</button>
+                    <div id="carrusel" class="carrusel">
+                        <span class="cerrar" id="cerrarCarrusel">&times;</span>
+                        <img src="images/hera2.jpg" alt="Imagen 1">
+                        <img src="images/hera3.jpg" alt="Imagen 2">
+                        <img src="images/hera4.jpg" alt="Imagen 3">
+                        <img src="images/hera5.jpg" alt="Imagen 4">
+                        <img src="images/hera6.jpg" alt="Imagen 5">
+                        <button class="anterior" id="anteriorImagen">Anterior</button>
+                        <button class="siguiente" id="siguienteImagen">Siguiente</button>
+                    </div>
+
+                    <button id="reservar1">Reservar</button>
+
+                    <div id="formulario" class="formulario">
+                        <span class="cerrar" id="cerrarFormulario">&times;</span>
+                        <form>
+                            <h2 id="titulo1">Formulario de Reserva</h2>
+                            <br>
+                            <input type="text" placeholder="Nombre">
+                            <input type="text" placeholder="Apellido">
+                            <input type="date" placeholder="Ingreso">
+                            <input type="date" placeholder="Egreso">
+                            <input type="email" placeholder="Correo Electrónico">
+                            <textarea name="mensaje" rows="1" cols="20" class="input_data">Mensaje</textarea>
+                            <button id="enviar" type="submit">Enviar</button>
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="hab">
+
+                <img src="images/afrodita1.jpg" class="imagen2" alt="Imagen2">
+                <br><br>
+                <h2>Suite Afrodita</h2>
+                <br>
+                <p>Las Suite Afrodita poseen un diseño exclusivo con detalles de pana y espejos, ideal para viajeros
+                    glamorosos. Estas
+                    habitaciones de 45 m2 cuentan con una
+                    cama de 200x200 cm.,
+                    conexión WiFi, bañera de hidromasaje, aire acondicionado, frigobar, y un amplio balcon con
+                    vistas al
+                    parque
+                    del
+                    hotel.</p>
+                <br><br><br>
+
+                <div class="inner-container">
+
+                    <div class="icon-container">
+                        <i class="fa-solid fa-bell-concierge"></i>
+                        <i class="fa-solid fa-mug-saucer"></i>
+                        <i class="fa-solid fa-wifi"></i>
+                        <i class="fa-solid fa-tv"></i>
+                        <i class="fa-solid fa-snowflake"></i>
+                        <i class="fa-solid fa-bath"></i>
+                    </div>
+
+                    <h3 id="precio">Precio por noche U$S 300</h3>
+
+                    <button id="abrirCarrusel">Ver Fotos</button>
+                    <div id="carrusel" class="carrusel">
+                        <span class="cerrar" id="cerrarCarrusel">&times;</span>
+                        <img src="images/afrodita2.jpg" alt="Imagen 1">
+                        <img src="images/afrodita3.jpg" alt="Imagen 2">
+                        <img src="images/afrodita4.jpg" alt="Imagen 3">
+                        <img src="images/afrodita5.jpg" alt="Imagen 4">
+                        <img src="images/afrodita6.jpg" alt="Imagen 5">
+                        <button class="anterior" id="anteriorImagen">Anterior</button>
+                        <button class="siguiente" id="siguienteImagen">Siguiente</button>
+                    </div>
+
+                    <button id="reservar2">Reservar</button>
+
+                </div>
+
+            </div>
+
+            <div class="hab">
+                <img src="images/atenea1.jpg" class="imagen3" alt="Imagen3">
+                <br><br>
+                <h2>Suite Atenea</h2>
+                <br>
+                <p>Las Suite Atenea poseen un estilo chic con una combinación de detalles industriales y antiguos.
+                    Estas
+                    habitaciones de 70 m2 cuentan con una
+                    cama de 200x200 cm.,
+                    conexión WiFi, TV satelital, sala de estar con escritorio y divan-cama adicional, bañera, aire
+                    acondicionado, frigobar, y vistas al
+                    frente del hotel.</p>
+                <br><br><br>
+
+                <div class="inner-container">
+
+                    <div class="icon-container">
+                        <i class="fa-solid fa-bell-concierge"></i>
+                        <i class="fa-solid fa-mug-saucer"></i>
+                        <i class="fa-solid fa-wifi"></i>
+                        <i class="fa-solid fa-tv"></i>
+                        <i class="fa-solid fa-snowflake"></i>
+                        <i class="fa-solid fa-bath"></i>
+                    </div>
+
+                    <h3 id="precio">Precio por noche U$S 430</h3>
+
+                    <button id="abrirCarrusel">Ver Fotos</button>
+                    <div id="carrusel" class="carrusel">
+                        <span class="cerrar" id="cerrarCarrusel">&times;</span>
+                        <img src="images/atenea2.jpg" alt="Imagen 1">
+                        <img src="images/atenea3.jpg" alt="Imagen 2">
+                        <img src="images/atenea4.jpg" alt="Imagen 3">
+                        <img src="images/atenea5.jpg" alt="Imagen 4">
+                        <img src="images/atenea6.jpg" alt="Imagen 5">
+                        <button class="anterior" id="anteriorImagen">Anterior</button>
+                        <button class="siguiente" id="siguienteImagen">Siguiente</button>
+                    </div>
+
+                    <button id="reservar3">Reservar</button>
+
+                </div>
+
+            </div>
+
+            <div class="hab">
+
+                <img src="images/artemisa1.jpg" class="imagen4" alt="Imagen4">
+                <br><br>
+                <h2>Suite Artemisa</h2>
+                <br>
+                <p>Las Suite Artemisa ofrece un espacio comfortable y delicado, decorada en tonos pasteles que
+                    invitan
+                    al romanticismo. Estas
+                    habitaciones de 50 m2 cuentan con una
+                    cama de 160x200 cm.,
+                    conexión WiFi, TV satelital, sofa, un delicado baño con ducha y bañera de hidromasaje, aire
+                    acondicionado, frigobar, y vistas al
+                    patio interno del hotel.</p>
+                <br><br>
+
+                <div class="inner-container">
+
+                    <div class="icon-container">
+                        <i class="fa-solid fa-bell-concierge"></i>
+                        <i class="fa-solid fa-mug-saucer"></i>
+                        <i class="fa-solid fa-wifi"></i>
+                        <i class="fa-solid fa-tv"></i>
+                        <i class="fa-solid fa-snowflake"></i>
+                        <i class="fa-solid fa-bath"></i>
+                    </div>
+
+                    <h3 id="precio">Precio por noche U$S 380</h3>
+
+                    <button id="abrirCarrusel">Ver Fotos</button>
+                    <div id="carrusel" class="carrusel">
+                        <span class="cerrar" id="cerrarCarrusel">&times;</span>
+                        <img src="images/artemisa2.jpg" alt="Imagen 1">
+                        <img src="images/artemisa3.jpg" alt="Imagen 2">
+                        <img src="images/artemisa4.jpg" alt="Imagen 3">
+                        <img src="images/artemisa5.jpg" alt="Imagen 4">
+                        <img src="images/artemisa6.jpg" alt="Imagen 5">
+                        <button class="anterior" id="anteriorImagen">Anterior</button>
+                        <button class="siguiente" id="siguienteImagen">Siguiente</button>
+                    </div>
+
+                    <button id="reservar4">Reservar</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        <section class="info">
+
+            <section class="footerSec">
+                <div class="footerLogo"><img src="./images/logo_hotel.png" alt="logo"></div>
+                <div class="footerRedes">
+                    <h5>Siguenos en línea</h5>
+                    <div class="redes">
+                        <a href="https://www.instagram.com/" target="_blank"> <i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://es-la.facebook.com/" target="_blank"> <i
+                                class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://twitter.com/iniciarsesion" target="_blank"><i
+                                class="fa-brands fa-square-twitter"></i> </a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="footerSec">
+                <h4>Enlaces Directos</h4>
+                <a href="#">Reserva Online</a>
+                <a href="./suites.html">Suites</a>
+                <a href="./spa.html">Spa</a>
+                <a href="./nosotros.html">Acerca de Nosotros</a>
+            </section>
+
+            <section class="footerSec">
+                <h4>Contáctanos</h4>
+                <p>Avenida Alvear 1981. Recoleta. CABA</p>
+                <p>Teléfono: 12 345 5667</p>
+            </section>
+
+        </section>
+
+        <section class=" copy">
+            <p>Información exclusiva de Luxury Suites&Spa. Desarrollada para uso academico. 2023</p>
+        </section>
+
+    </footer>
+
+    <script src="./archivosJS/index.js"></script>
+    <script src="./archivosJS/suites.js"></script>
+</body>
+
+</html>

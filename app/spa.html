@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.32/dist/sweetalert2.all.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.32/dist/sweetalert2.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Playpen+Sans:wght@500&family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/spa.css">
+    <title>Spa</title>
+</head>
+
+<body>
+    <header>
+        <div class="hero">
+            <img src="https://firebasestorage.googleapis.com/v0/b/mi-proyecto-de-recetas.appspot.com/o/FOTOS%20PROYECTO%20HOTEL%2Fpexels-max-rahubovskiy-6957079.jpg?alt=media&token=0236e294-05b8-4f3e-930e-12f75d0e49f2&_gl=1*1jsscjr*_ga*MTcyMTIyNTczNy4xNjk2MTk1ODIy*_ga_CW55HF8NVT*MTY5NjE5NTgyNC4xLjEuMTY5NjE5NjE1My42MC4wLjA."
+                alt="Foto de Max Rahubovskiy">
+        </div>
+        <div class="headerLogo"><img src="./images/logo_hotel.png" alt="logo luxury hotel"></div>
+        <nav>
+            <li><a class="link" href="#" id="home">Home</a></li>
+            <li><a class="link" href="#" id="suites">Suites</a></li>
+            <li> <a class="link" href="#" id="restaurante">Restaurante</a></li>
+            <li> <a class="link" href="#" id="spa">Spa</a></li>
+            <li><a class="link" href="#" id="nosotros">Nosotros</a></li>
+        </nav>
+    </header>
+    <main>
+        <section class="introSpa">
+            <div class="introSpaPic zoom"><img
+                    src="https://firebasestorage.googleapis.com/v0/b/mi-proyecto-de-recetas.appspot.com/o/FOTOS%20PROYECTO%20HOTEL%2Fpexels-yaroslav-shuraev-6811708.jpg?alt=media&token=5844f5ba-0546-473b-b04d-79a2ab87e9a7&_gl=1*83kp9h*_ga*MTcyMTIyNTczNy4xNjk2MTk1ODIy*_ga_CW55HF8NVT*MTY5NjE5NTgyNC4xLjEuMTY5NjE5NjE4My4zMC4wLjA."
+                    alt="Foto de Yaroslav Shuraev: https://www.pexels.com/es-es/foto/madera-amanecer-gente-mujer-6811708/">
+            </div>
+            <div class="introSpaInfo">
+                <h2>Spa Luxury</h2>
+                <p>Sumérjase en un oasis de relajación en nuestro Luxury Spa, un refugio sereno en el corazón de nuestro
+                    hotel. En este santuario de bienestar, el placer es la prioridad. Disfrute de una piscina cubierta
+                    climatizada, un gimnasio totalmente equipado y la indulgencia de tratamientos de spa de clase
+                    mundial. Nuestro personal altamente capacitado le mimará con masajes rejuvenecedores y tratamientos
+                    personalizados. Ya sea que busque un escape tranquilo o una experiencia rejuvenecedora, nuestro
+                    Luxury Spa ofrece un ambiente de lujo y comodidad para que se relaje y revitalice. Descubra una
+                    propuesta diferente y agradable en su estadía con nosotros.</p>
+            </div>
+        </section>
+        <section class="productosSpa">
+            <h2>Conoce Nuestros Exclusivos Servicios</h2>
+            <div class="productosSpaInfo" id="contenedorServicios">
+            </div>
+            <div id="detalleServicio"></div>
+            <div id="reservaServicio">
+                <!-- <form action="" id="formularioSpa">
+                    <div class="entrada">
+                        <label for="nombre"><i class="fa-solid fa-user"></i></label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Ingrese Nombre y Apellido">
+                    </div>
+
+                    <div class="entrada">
+                        <label for="email"><i class="fa-solid fa-at"></i></label>
+                        <input id="email" type="email" name="email" placeholder="email@email.com">
+                    </div>
+
+                    <div class="entrada">
+                        <label for="telefono"><i class="fa-solid fa-user"></i></label>
+                        <input class="telefono" id="telefono" type="number" name="telefono"
+                            placeholder="Ingrese nro de contacto">
+                    </div>
+
+
+                    <div class="entrada">
+                        <div class="seleccion">
+                            <label for="servicio" selector><i class="fa-solid fa-qrcode"></i></label>
+                            <select id="servicio" name="servicio">
+                                <option selected>Servicio</option>
+                                <option value="Dia de Spa">Dia de Spa</option>
+                                <option value="Relax + Facial Amigos">Relax + Facial Amigos</option>
+                                <option value="Masaje Relajante">Masaje Relajante</option>
+                                <option value="Spa Facial">Spa Facial</option>
+                                <option value="Masaje Descontracturante">Masaje Descontracturante</option>
+                                <option value="Hidroterapia">Hidroterapia</option>
+                            </select>
+                        </div>
+
+
+                        <div class="seleccion">
+                            <label for="date"><i class="fa-solid fa-calendar"></i></i></label>
+                            <input type="date" id="date" class="form-control">
+                        </div>
+
+                    </div>
+
+                    <div class="entrada">
+                        <label for="comentario"><i class="fa-solid fa-comment"></i></label>
+                        <textarea id="comentario" class="form-control" placeholder=" Dejanos tu comentario"></textarea>
+                    </div>
+
+
+
+                    <div class="boton_form">
+                        <button id="enviar" class="miBoton" type="submit">Enviar<i
+                                class="fa-solid fa-paper-plane"></i></button>
+                        <button id="resetBtn" type="reset" class="miBoton">Reset<i
+                                class="fa-solid fa-arrow-rotate-right"></i></button>
+                    </div>
+
+                </form> -->
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+
+        <section class="info">
+
+            <section class="footerSec">
+                <div class="footerLogo"><img src="./images/logo_hotel.png" alt="logo"></div>
+                <div class="footerRedes">
+                    <h5>Siguenos en línea</h5>
+                    <div class="redes">
+                        <a href="https://www.instagram.com/" target="_blank"> <i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://es-la.facebook.com/" target="_blank"> <i
+                                class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://twitter.com/iniciarsesion" target="_blank"><i
+                                class="fa-brands fa-square-twitter"></i> </a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="footerSec">
+                <h4>Enlaces Directos</h4>
+                <a href="#">Reserva Online</a>
+                <a href="./suites.html">Suites</a>
+                <a href="./spa.html">Spa</a>
+                <a href="./nosotros.html">Acerca de Nosotros</a>
+            </section>
+
+            <section class="footerSec">
+                <h4>Contáctanos</h4>
+                <p>Avenida Alvear 1981. Recoleta. CABA</p>
+                <p>Teléfono: 12 345 5667</p>
+            </section>
+            
+        </section>
+
+        <section class=" copy">
+            <p>Información exclusiva de Luxury Suites&Spa. Desarrollada para uso academico. 2023</p>
+        </section>
+    </footer>
+
+    <script src="./archivosJS/index.js"></script>
+    <script src="./archivosJS/spa.js"></script>
+    <script src="./archivosJS/validacionSpa.js"></script>
+</body>
+
+</html>
