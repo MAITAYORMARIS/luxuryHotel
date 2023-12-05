@@ -1,20 +1,36 @@
 let dataSpa = []
-
+document.getElementById('spinner').style.display = 'none';
 async function getData() {
   let dataApi
   let services
-  await fetch("https://yormarismaita-api-services-crud.onrender.com/api/spa")
-    .then(response => response.json())
 
-    .then(json => dataApi = json)
-
-  services = dataApi.response.services
-  console.log(services)
-  for (var i = 0; i < services.length; i++) {
-    dataSpa.push(services[i])
-
+  // Muestra el spinner antes de la solicitud
+  document.getElementById('spinner').style.display = 'block';
+  try {
+    const response = await fetch("https://yormarismaita-api-services-crud.onrender.com/api/spa")
+    const json = await response.json();
+    dataApi = json;
+    services = dataApi.response.services;
+    console.log(services);
+    //   .then(response => response.json())
+  
+    //   .then(json => dataApi = json)
+  
+    // services = dataApi.response.services
+    // console.log(services)
+    for (var i = 0; i < services.length; i++) {
+      dataSpa.push(services[i])
+  
+    }
+    construirServicios(dataSpa)
+  } catch (error) {
+    alert("Error al cargar datos")
+    console.error(error);
+  }finally{
+    document.getElementById('spinner').style.display = 'none';
   }
-  construirServicios(dataSpa)
+
+
 } getData()
 
 // RECORRE EL ARRAY GENERAL Y SEPARA POR PARES PARA PINTAR EL HTML A LA IZQUIERDA O DERECHA
@@ -46,7 +62,7 @@ function construirServicios(array) {
           </div>
         </div>`
     }
-// si el indice es impar la imagen aparece a la derecha y el texto a la izquierda
+    // si el indice es impar la imagen aparece a la derecha y el texto a la izquierda
     else {
       html +=
         `
@@ -85,15 +101,15 @@ function construirServicios(array) {
 
   // LLAMADO A FORMULARIO DE RESERVA SPA
   var botonReserva = document.querySelectorAll(".botonReserva")
-console.log(botonReserva)
-for (var b = 0; b < botonReserva.length; b++) {
-  botonReserva[b].addEventListener("click", function (e) {
-    pintarFormulario()
-    formularioSpa(e.target.dataset.servicio)
-    // console.log(e.target.getAttribute("data-servicio"))
+  console.log(botonReserva)
+  for (var b = 0; b < botonReserva.length; b++) {
+    botonReserva[b].addEventListener("click", function (e) {
+      pintarFormulario()
+      formularioSpa(e.target.dataset.servicio)
+      // console.log(e.target.getAttribute("data-servicio"))
 
-  })
-}
+    })
+  }
 
 }
 // FUNCION PARA UBICAR LOS DATOS DEL SERVICIO SELECCIONADO EN EL ARRAY DE SERVICIOS GRAL
@@ -155,7 +171,7 @@ function formularioSpa(servicioSeleccionado) {
   }
 }
 // CONSTRUYE EL HTML DEL FORMULARIO DE RESERVA
-function pintarFormulario(){
+function pintarFormulario() {
   var formulario = `
   <form action="" id="formularioSpa" onsubmit="validarFormSpa(event)">
                     <div class="entrada">
@@ -210,8 +226,9 @@ function pintarFormulario(){
                 `
   // lo agrego en un alert
   Swal.fire({
-    didOpen: () =>{
-      Swal.getConfirmButton(), ocultarBoton()},
+    didOpen: () => {
+      Swal.getConfirmButton(), ocultarBoton()
+    },
     width: '80vw',
     title: '<b>Reserva de Servicio</b>',
     icon: 'warning',
@@ -228,11 +245,11 @@ function pintarFormulario(){
 
   // let formSpa = document.querySelector("#formularioSpa")
   // formSpa.addEventListener("submit", function (evento) { 
-    
+
   //   validacionFormSpa(evento) })
 }
 // PARA OCULTAR EL BOTON OK PREDETERMINADO DE SWEETALERT
-function ocultarBoton(){
-  var botonOK=document.getElementsByClassName("swal2-confirm swal2-styled")
-botonOK[0].style.display="none"
+function ocultarBoton() {
+  var botonOK = document.getElementsByClassName("swal2-confirm swal2-styled")
+  botonOK[0].style.display = "none"
 }
